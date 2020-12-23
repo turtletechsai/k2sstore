@@ -19,6 +19,10 @@ require 'capistrano/rbenv'
 require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
 
+
+set :rbenv_type, :user
+set :rbenv_ruby, '2.6.3'
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:

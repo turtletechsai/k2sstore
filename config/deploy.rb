@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "k2sstore"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:turtletechsai/k2sstore.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
