@@ -72,6 +72,7 @@ GEM
     awesome_nested_set (3.2.1)
       activerecord (>= 4.0.0, < 7.0)
     bcrypt (3.1.16)
+    bcrypt_pbkdf (1.0.1)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
@@ -131,6 +132,7 @@ GEM
       devise (>= 2.1.0)
     discard (1.2.0)
       activerecord (>= 4.2, < 7)
+    ed25519 (1.2.4)
     erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.14.2)
@@ -386,6 +388,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt_pbkdf (>= 1.0, < 2.0)
   bootsnap (>= 1.4.4)
   byebug
   capistrano (~> 3.11)
@@ -393,6 +396,7 @@ DEPENDENCIES
   capistrano-rails (~> 1.4)
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   capybara (>= 3.26)
+  ed25519 (>= 1.2, < 2.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
